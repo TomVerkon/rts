@@ -1,8 +1,8 @@
 import React from 'react';
-import Parent from './props/Parent';
+import EventComponent from './events/EventComponent';
 
 function App() {
-  return <Parent />;
+  return <EventComponent />;
 }
 
 export default App;
