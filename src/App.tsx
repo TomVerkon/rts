@@ -1,8 +1,9 @@
 import React from 'react';
-import EventComponent from './events/EventComponent';
+import UserSearch from './classes/UserSearch';
+import { users } from './state/UserSearch';
 
 function App() {
-  return <EventComponent />;
+  return <UserSearch users={users} />;
 }
 
 export default App;

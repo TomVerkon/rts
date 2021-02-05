@@ -1,6 +1,6 @@
 import React, { useState, FC } from 'react';
 
-const users = [
+export const users = [
   { name: 'Tom', age: 50 },
   { name: 'Denise', age: 49 },
   { name: 'Dilbert', age: 70 },
