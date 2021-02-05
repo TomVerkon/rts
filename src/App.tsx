@@ -1,9 +1,8 @@
 import React from 'react';
-import UserSearch from './classes/UserSearch';
-import { users } from './state/UserSearch';
+import UserSearch from './refs/UserSearch';
 
 function App() {
-  return <UserSearch users={users} />;
+  return <UserSearch />;
 }
 
 export default App;
