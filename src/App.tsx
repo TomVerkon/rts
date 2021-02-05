@@ -1,11 +1,8 @@
 import React from 'react';
+import Parent from './props/Parent';
 
 function App() {
-  return (
-    <div>
-      <h1>Hi There!</h1>
-    </div>
-  );
+  return <Parent />;
 }
 
 export default App;
